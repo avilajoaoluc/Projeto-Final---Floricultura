@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floricultura JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Black and White Minimalist Flower Initials Logo.png" alt="Logo Floricultura JS">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Buquê de flores">
+    </section>
+
+    <section class="blog">
+        <h2>Blog</h2>
+        <div class="produtos">
+            <div class="produto">
+                <img src="https://images.unsplash.com/photo-1595273670190-6a30a0f77a62" alt="Buquê de 24 rosas amarelas">
+                <h3>Buquê de 24 Rosas Amarelas</h3>
+                <button class="saiba-mais" data-nome="Buquê de 24 Rosas Amarelas" data-preco="R$ 277,00">Saiba Mais</button>
+                <p>R$277,00</p>
+            </div>
+            <div class="produto">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" alt="Buquê 12 rosas vermelhas">
+                <h3>Buquê 12 Rosas Vermelhas</h3>
+                <button class="saiba-mais" data-nome="Buquê 12 Rosas Vermelhas" data-preco="R$ 200,00">Saiba Mais</button>
+                <p>R$200,00</p>
+            </div>
+            <div class="produto">
+                <img src="buqye rosa.png" alt="Buquê 12 Rosas Cor-de-Rosa">
+                <h3>Buquê 12 Rosas Cor-de-Rosa</h3>
+                <button class="saiba-mais" data-nome="Buquê 12 Rosas Cor-de-Rosa" data-preco="R$ 215,00">Saiba Mais</button>
+                <p>R$215,00</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <h2>Entre em contato</h2>
+        <form id="form-contato">
+            <label>Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label>Telefone:</label>
+            <input type="text" id="telefone" required>
+
+            <label>Email:</label>
+            <input type="email" id="email" required>
+
+            <label>Dúvida:</label>
+            <textarea id="duvida" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p><strong>Trabalho JavaScript</strong></p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
